@@ -49,7 +49,7 @@ class tupleObj:
 
 
 imInput1 = Image.open('source.jpg')
-imInput2 = Image.open('destination.jpg')
+imInput2 = Image.open('destination.png')
 
 ditheringFactor = ((imInput1.width * imInput1.height) // (imInput2.width * imInput2.height)) - 13
 
